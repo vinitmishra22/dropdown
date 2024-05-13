@@ -1,0 +1,53 @@
+/* body{
+    font-family: "Jacquard 12 Charted", system-ui;
+} */
+/* #img1{
+    position: fixed ;
+    top: 300px;
+} */
+
+/* #img2{
+    position: relative;
+    top: 300px;
+    left: 10px;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+   background-image: linear-gradient( to right bottom,red,blue, green);
+   height: 100vh;
+}
+nav{
+    background-color: yellowgreen;
+}
+#cont{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    color: red;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    background-color: hotpink;
+}
+#menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: pink;
+    position: absolute;
+    display: none;
+    
+}
+#drop:hover #menu{
+    display: block;
+    
+}
